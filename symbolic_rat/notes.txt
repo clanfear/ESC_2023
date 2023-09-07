@@ -1,0 +1,25 @@
+Use the CE BE paper as macro-meso-micro links
+Recycle from IoC talk
+Sampson & Smith (2021): cohort-historical perspective on propensity
+  Perhaps extend this idea beyond propensity to include all sorts of action and social structures
+  e.g., cohort-historical norms? Differences in effects of context/environment?
+    A context once criminogenic may not be now
+Maybe complain about multiple incompatible theory usage?
+  This would require endorsing explicit overall theory and perspective and making individual studies focus on isolated parts of system; this is prob already in Hedstrom or whatever
+
+SAT developmental ecological action model
+  Notes activity field changes + person changes as -> changes in crime involvement and nature
+  Consider broader system of activity and person changes that fuel larger opportunity system
+  Social and self-selection into criminogenic exposure are "causes of causes"
+
+Manski
+  Social vs. nonsocial effect identifiability
+  Identifying reference groups
+    Mobility data?
+
+Moffitt
+  Find interventions that act on interactions not on individual incentives
+  Consider unique equilibrium might result in long-term return to original state
+
+From CE BE paper:
+  "Future research might unite these approaches to specify mobility as both a cause and a consequence of macro-level social structures (e.g., collective efficacy) and micro-level situations (e.g., crime) embedded in a changing built environment (see Lanfear, 2021)."

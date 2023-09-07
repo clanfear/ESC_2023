@@ -1,0 +1,331 @@
+---
+format:
+  revealjs:
+    theme: [night, assets/phdcn_style.scss]
+    logo: img/cambridge_white-text.svg
+    incremental: false
+    self-contained: false
+    width: 1200
+    height: 800
+editor: source
+mouse-wheel: true
+history: false
+---
+
+# A Micro Theory of Crime Opportunities {background-image="img/bicycle.jpg" background-opacity="0.3"}
+
+Symbolic interaction among motivated offenders, suitable targets, and capable guardians
+
+```{r}
+#| label: setup
+knitr::opts_chunk$set(dev = "ragg_png",  
+                      dev.args = list(bg = 'transparent'),
+                      message = FALSE,
+                      echo = FALSE,
+                      warning = FALSE,
+                      fig.showtext = TRUE,
+                      fig.retina = 5,
+                      fig.align = "center")
+```
+
+## Origin {background-image="img/bicycle.jpg" background-opacity="0.1"}
+
+![](img/papers.png)
+
+## Problem {background-image="img/bicycle.jpg" background-opacity="0.1"}
+
+*Unarticulated* or *incomplete* micro-level mechanisms:
+
+-   Collective efficacy
+-   Broken windows
+-   Routine activity
+
+. . .
+
+**Goal:** Specify social mechanisms compatible with *core claims* and *empirical evidence*
+
+-   Perception, motivation, meaning
+-   Strategic action and selection
+-   Inter-level causal mechanisms
+
+*Establish identifying assumptions for macro-analyses*
+
+# Macro-Structural Theories {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.3"}
+
+## Collective Efficacy {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  a [pos = "1,  0!", label = "Collective\nEfficacy"]
+  b [pos = "0,  1!", label = "Disorder"]
+  c [pos = "2,  1!", label = "Crime\nRate"]
+  
+  a -> b
+  a -> c [style = "dashed"]
+
+}
+```
+
+A recursive macro model
+
+Rooted in *social capital* and *collective action*
+
+## Collective Efficacy {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1" visibility="uncounted"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  a [pos = "0,  1!", label = "Collective\nEfficacy"]
+  b [pos = "0.5,  0!", label = "Perceived\nSolidarity"]
+  c [pos = "2.5,  0!", label = "Intervention"]
+  d [pos = "3,  1!", label = "Crime &\nDisorder"]
+  e [pos = "-1, 0!", label = "Interactions"]
+  
+  a -> d
+  a -> b [style = "dashed"]
+  b -> c [style = "dashed"]
+  c -> d [style = "dashed"]
+  e -> a
+}
+```
+
+Efficacy is emergent social structure
+
+Mechanisms typically implied: deterrence, **norms**, **perceptions**
+
+
+
+## Broken Windows {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  a [pos = "1,  0!", label = "Social\nControl"]
+  b [pos = "0,  1!", label = "Disorder"]
+  c [pos = "2,  1!", label = "Crime\nRate"]
+  
+  a -> b
+  a -> c
+  b -> c
+  b -> a
+  c -> a [style="dashed"]
+
+}
+```
+
+Same elements as collective efficacy but non-recursive
+
+Equilibrium and cascade effects
+
+## Broken Windows {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1" visibility="uncounted"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  a [pos = "0,  1!", label = "Disorder"]
+  b [pos = "0.5,  0!", label = "Perceived\nSocial\nControl"]
+  c [pos = "2.5,  0!", label = "Withdrawal"]
+  d [pos = "3,  1!", label = "Reduced\nSocial Control"]
+  e [pos = "4.25,  0!", label = "Reduced\nIndividual\nRisk"]
+  f [pos = "-1.25,  1!", label = "Social\nControl"]
+  
+  f -> a
+  a -> {b, d}
+  b -> c
+  c -> d
+  c -> e
+}
+```
+
+Explicit mechanisms: Deterrence, **perceptions**
+
+Recursive with micro-model
+
+**Selection** as an externality problem
+
+
+## Community Theories {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+
+* Incompletely articulated models of situations and individuals
+
+   * Opportunity absent in particular
+
+* Rely heavily on perceptions as mediating mechanisms
+
+* Social effects and structures: Emergence, norms, cascades
+
+. . .
+
+*Language of routine activity theory useful for connecting these theories and introducing opportunity*
+
+## Routine Activity {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  a [pos = "0,  1!", label = "Routine\nActivities"]
+  b [pos = "0.5,  0!", label = "Offender\nTarget\nNo Guardian"]
+  c [pos = "2.5,  0!", label = "Crime"]
+  d [pos = "3,  1!", label = "Crime\nRate"]
+  
+  a -> {b, d}
+  b -> c
+  c -> d
+}
+```
+
+-   Abstract crime-relevant **roles**
+-   Routine activity's micro-theory is a *non-falsifiable postulate*
+-   Emphasizes *objective* opportunities and **selection**
+
+## Unifying Language {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+
+Routine activity theory provides a simple, unifying language
+
+-   Collective efficacy increases real and perceived guardians
+-   Disorder increases and signals absence of guardians
+
+. . .
+
+Communities can also control crime by:
+
+-   Hardening targets (e.g., environmental interventions)
+-   Excluding offenders (e.g., enforcing boundaries)
+-   Invoking guardians (e.g., police, place managers)
+
+. . .
+
+Problem: No micro-theory of crime-relevant **roles**
+
+## A Micro-Theory of Opportunity {background-image="img/denver-alley.jpg" background-opacity="0.3"}
+
+## Approach {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+**Situational micro-theory** of roles, perception, and motivation based on *criminological theory*[^1] and *pragmatist thought*.<sup>2</sup>
+
+[^1]: Matsueda 1992, 2006; Giordano et al. 2002; 2. Dewey 1922; Mead 1934
+
+. . .
+
+-   Link social structure and physical environment to distribution of roles in space and time
+-   Consider intentional actions to alter distributions
+-   Specify how situational outcomes change social structure
+-   Highlight challenges for macro-analyses
+
+## Routine Activity Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+Analytical categories of motivated offender, suitable target, and capable guardian correspond to **social roles**
+
+-   Encompass meanings attributed to self, others, and objects
+-   Carry expectations, obligations, norms, choice sets
+-   Vary in salience and commitment
+   * Influence **deterrence**
+-   Shape habitual and deliberate behavior
+   * Govern crime-relevant **selection**
+
+## Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+> The ideal suitable target lives up to the term "suitable" by generally failing to navigate dangerous streets effectively, such as by avoiding hot spots, dark alleys, abandoned buildings, and suspicious groups of men. Capable guardians live up to the term "capable" by exercising the capacity to prevent crime through monitoring and to intervene adroitly when criminal acts begin.
+
+## Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1" visibility="uncounted"}
+
+> For a law-abiding person with little criminal motivation, an unguarded open cash register would mean that someone should alert a sales clerk of a potential problem; for a motivated offender, it would mean that they could steal money with impunity. In other words, what is important is not just the objective opportunity, but rather the opportunity as perceived by the individual, which is based on a priori meanings actors bring into the situation, which are then shaped by the ongoing social process.
+
+## Symbolic Interaction {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  sc1 [pos = "0,  1!", label = "Social\nContext"]
+  si [pos = "0.5,  0!", label = "Situation"]
+  sa [pos = "2.5,  0!", label = "Social\nAction"]
+  sc2 [pos = "3,  1!", label = "New\nContext"]
+  i1 [pos = "-1, 0!", label = "Identity"]
+  i2 [pos = "4, 0!", label = "New\nIdentity"]
+  
+  {sc1, i1} -> si
+  sc1 -> sc2
+  si -> sa
+  sc1 -> sa [style = "dashed"]
+  sa -> {i2, sc2}
+}
+```
+
+Symbolic interaction elaborates processes of learning, selection into situations, social action, emergence of shared meanings
+
+## Implications for Macro-Analyses {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+-   Subjective opportunities \> objective opportunities
+
+    -   Estimates attenuated unless perfectly correlated
+    -   Association declines with novelty / heterogeneity
+    -   *Clarify when bias can be removed with adjustment*
+
+. . .
+
+-   Social interaction
+
+    -   Bias unless emergence orthogonal to covariates
+        -   Bias Low: Institutionalized settings / homogeneous actors
+        -   Bias High: Novel situations / heterogeneous actors
+    -   *Elaborate interference conditions* 
+    -   *Clarify conditions for social effect identification*
+
+## Integration {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+Connects core macro-structural theories to disparate literatures:
+
+::: columns
+::: {.column width="40%"}
+Code of the Street<sup>1</sup>
+
+Signal crimes<sup>3</sup>
+
+Environmental criminology<sup>5</sup>
+:::
+
+::: {.column width="60%"}
+Situated transactions<sup>2</sup>
+
+Life-course<sup>4</sup>
+:::
+:::
+
+::: aside
+\[1\] Anderson 1990 \[2\] Luckenbill 1977 \[3\] Innes 2004 \[4\] Matsueda 2006; Giordano et al. 2002 \[5\] Lanfear 2022
+:::
+
+## Appendix
+
+Photo credits:
+
+Bicycle by <a href="https://unsplash.com/@stags?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Craig Strahorn</a> on <a href="https://unsplash.com/photos/uqqwA0mHZOA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Philadelphia graffiti by <a href="https://unsplash.com/@fredymartinez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fredy Martinez</a> on <a href="https://unsplash.com/photos/ou3fG2zWbcs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Denver alley by <a href="https://unsplash.com/@thatonekidnick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">nick Kaufman</a> on <a href="https://unsplash.com/photos/9UppsCKsap4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
