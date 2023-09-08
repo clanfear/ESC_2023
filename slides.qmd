@@ -32,9 +32,9 @@ knitr::opts_chunk$set(dev = "ragg_png",
 
 ![](img/papers.png)
 
-## Problem {background-image="img/bicycle.jpg" background-opacity="0.1"}
+##  {background-image="img/bicycle.jpg" background-opacity="0.1"}
 
-*Unarticulated* or *incomplete* micro-level mechanisms:
+**Problem**: Macro-level theories have *unarticulated* or *incomplete* micro-level mechanisms
 
 -   Collective efficacy
 -   Broken windows
@@ -66,7 +66,7 @@ digraph G{
   c [pos = "2,  1!", label = "Crime\nRate"]
   
   a -> b
-  a -> c [style = "dashed"]
+  a -> c
 
 }
 ```
@@ -128,7 +128,7 @@ digraph G{
 
 Same elements as collective efficacy but non-recursive
 
-Equilibrium and cascade effects
+Equilibriating and cascade effects
 
 ## Broken Windows {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1" visibility="uncounted"}
 
@@ -163,11 +163,13 @@ Recursive with micro-model
 
 ## Community Theories {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
 
-* Incompletely articulated models of situations and individuals
+* *Collective efficacy* and *broken windows* have incompletely articulated models of situations and individuals
 
    * Opportunity absent in particular
 
 * Rely heavily on perceptions as mediating mechanisms
+
+   * e.g. disorder, solidarity, support, risk
 
 * Social effects and structures: Emergence, norms, cascades
 
@@ -199,9 +201,9 @@ digraph G{
 -   Routine activity's micro-theory is a *non-falsifiable postulate*
 -   Emphasizes *objective* opportunities and **selection**
 
-## Unifying Language {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
+## {background-image="img/philadelphia-graffiti.jpg" background-opacity="0.1"}
 
-Routine activity theory provides a simple, unifying language
+*Routine activity theory* provides a simple, **unifying language**
 
 -   Collective efficacy increases real and perceived guardians
 -   Disorder increases and signals absence of guardians
@@ -216,37 +218,45 @@ Communities can also control crime by:
 
 . . .
 
-Problem: No micro-theory of crime-relevant **roles**
+Problems: 
 
-## A Micro-Theory of Opportunity {background-image="img/denver-alley.jpg" background-opacity="0.3"}
+-   No micro-theory of crime-relevant **roles**
+-   Objective and **subjective opportunity** may diverge
 
-## Approach {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+# A Micro-Theory of Opportunity {background-image="img/denver-alley.jpg" background-opacity="0.3"}
 
-**Situational micro-theory** of roles, perception, and motivation based on *criminological theory*[^1] and *pragmatist thought*.<sup>2</sup>
+## {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+
+We propose a **situational micro-theory** of roles, perception, and motivation based on *criminological theory*[^1] and *pragmatist thought*.<sup>2</sup>
 
 [^1]: Matsueda 1992, 2006; Giordano et al. 2002; 2. Dewey 1922; Mead 1934
 
 . . .
 
--   Link social structure and physical environment to distribution of roles in space and time
--   Consider intentional actions to alter distributions
--   Specify how situational outcomes change social structure
--   Highlight challenges for macro-analyses
+-   Link social structure and physical environment to distribution of crime-relevant roles in space and time
+-   Consider strategic actions to alter distributions
+-   Specify how situational outcomes change social structures
+-   *Highlight challenges for empirical macro-analyses*
 
 ## Routine Activity Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1"}
 
 Analytical categories of motivated offender, suitable target, and capable guardian correspond to **social roles**
 
+::: {.fragment}
 -   Encompass meanings attributed to self, others, and objects
--   Carry expectations, obligations, norms, choice sets
--   Vary in salience and commitment
-   * Influence **deterrence**
--   Shape habitual and deliberate behavior
-   * Govern crime-relevant **selection**
-
-## Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1"}
-
-> The ideal suitable target lives up to the term "suitable" by generally failing to navigate dangerous streets effectively, such as by avoiding hot spots, dark alleys, abandoned buildings, and suspicious groups of men. Capable guardians live up to the term "capable" by exercising the capacity to prevent crime through monitoring and to intervene adroitly when criminal acts begin.
+    * e.g., perceiving others as motivated offenders
+:::
+::: {.fragment}
+-   Vary in **salience** and **commitment**
+    * e.g., influencing deterrence susceptibility
+:::
+::: {.fragment}
+-   Shape **habitual** and **deliberate** behavior
+    * e.g., governing crime-relevant selection
+:::
+::: {.fragment}
+-   Change as actors redefine situations
+:::
 
 ## Role-Identities {background-image="img/denver-alley.jpg" background-opacity="0.1" visibility="uncounted"}
 
@@ -278,46 +288,45 @@ digraph G{
 
 Symbolic interaction elaborates processes of learning, selection into situations, social action, emergence of shared meanings
 
-## Implications for Macro-Analyses {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+## {background-image="img/denver-alley.jpg" background-opacity="0.1"}
 
--   Subjective opportunities \> objective opportunities
+We use this framework to clarify assumptions for **identification** and when **micro-processes bias macro-analyses**, e.g.:
 
-    -   Estimates attenuated unless perfectly correlated
+-   If subjective opportunities ≠ objective opportunities
+
+    -   Estimated opportunity effects are attenuated
     -   Association declines with novelty / heterogeneity
-    -   *Clarify when bias can be removed with adjustment*
+    -   Adjustment using perception antecedents
 
 . . .
 
--   Social interaction
+-   If emergence occurs---and where it is expected
 
-    -   Bias unless emergence orthogonal to covariates
+    -   Widespread bias unless orthogonal to covariates
         -   Bias Low: Institutionalized settings / homogeneous actors
         -   Bias High: Novel situations / heterogeneous actors
-    -   *Elaborate interference conditions* 
-    -   *Clarify conditions for social effect identification*
+    -   Form determines appropriate design
 
-## Integration {background-image="img/denver-alley.jpg" background-opacity="0.1"}
+## Implications for Theory {background-image="img/denver-alley.jpg" background-opacity="0.1"}
 
-Connects core macro-structural theories to disparate literatures:
+Connects core community theories to broad literature, e.g.:
 
-::: columns
-::: {.column width="40%"}
-Code of the Street<sup>1</sup>
 
-Signal crimes<sup>3</sup>
+* Cultural theories<sup>1</sup>
 
-Environmental criminology<sup>5</sup>
-:::
+* Situated transactions<sup>2</sup>
 
-::: {.column width="60%"}
-Situated transactions<sup>2</sup>
+* Signal crimes<sup>3</sup>
 
-Life-course<sup>4</sup>
-:::
-:::
+* Life-course<sup>4</sup>
+
+* Environmental criminology<sup>5</sup>
+
+* Collective action<sup>6</sup>
+
 
 ::: aside
-\[1\] Anderson 1990 \[2\] Luckenbill 1977 \[3\] Innes 2004 \[4\] Matsueda 2006; Giordano et al. 2002 \[5\] Lanfear 2022
+\[1\] Anderson 1990 \[2\] Luckenbill 1977 \[3\] Innes 2004 \[4\] Matsueda 2006; Giordano et al. 2002 \[5\] Lanfear 2022 \[6\] Carr 2005
 :::
 
 ## Appendix
